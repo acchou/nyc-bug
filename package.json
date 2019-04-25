@@ -13,6 +13,7 @@
             "lcov",
             "text"
         ],
-        "exclude-after-remap": true
+        "exclude": [],
+        "exclude-after-remap": false
     }
 }

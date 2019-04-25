@@ -22,8 +22,10 @@ Then rerun test:
 $ npm run test
 ```
 
-Now the output includes no coverage information.
+Now the output includes no coverage information, even though the configuration includes no excludes:
 
-There are no explicit excludes added, and all of the default excludes should not exclude the file `index.ts`.
+```json
+   "exclude": []
+```
 
 This problem is an issue because nyc@13 set exclude-after-remap to false by default, and in nyc@14 it turned to true by default. So projects like this one suddenly stopped getting coverage information.
