@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "rootDir": ".",
+        "module": "commonjs",
+        "target": "es2017",
+        "lib": ["es2017", "esnext.asynciterable"],
+        // "sourceMap": true,
+        "inlineSourceMap": true,
+        "inlineSources": true,
+        "moduleResolution": "node",
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noImplicitAny": true,
+        "noFallthroughCasesInSwitch": true,
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false,
+        "noUnusedParameters": true,
+        "strict": true,
+        "allowSyntheticDefaultImports": true,
+        "skipLibCheck": true
+    },
+    "exclude": ["node_modules"]
+}

@@ -1,0 +1,6 @@
+*.js
+node_modules/
+*.d.ts
+coverage/
+.nyc_output/
+
